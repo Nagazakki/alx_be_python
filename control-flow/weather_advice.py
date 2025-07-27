@@ -3,7 +3,7 @@ Weather Advice and Clothing Recommendation Script
 Asks about weather and gives clothing advice using if/elif/else statements.
 """
 
-print("What is the weather like today? (sunny, rainy, cold):")
+print("What's the weather like today? (sunny, rainy, cold):")
 weather = input().strip().lower()
 
 if weather == "sunny":

@@ -1,5 +1,5 @@
 task = input("Enter your task: ")
-priority = input("Priority (high, medium, low): ")
+priority = input("Priority (high/medium/low): ")
 time_bound = input("Is it time-bound? (yes/no): ")
 
 match priority:
@@ -27,7 +27,5 @@ match priority:
             reminder += " Note that time-bound tasks should be prioritized."
         else:
             reminder += " Non-time-bound tasks can be scheduled flexibly."
-
 print()
 print(reminder)
-print("Have a productive day!")

@@ -11,13 +11,13 @@ def main():
     print("Temperature Conversion Tool")
     
     try:
-        temp_input = input("Enter the temperature to convert: ")
+        temp_input = input("Enter the temperature to convert:")
         try:
             temperature = float(temp_input)
         except ValueError:
             raise("Invalid input. Please enter a valid numerical value.")
 
-        unit = input("Is this temperature in Celsius or Fahrenheit? (C/F) ").strip().upper()
+        unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
         if unit not in ['C', 'F']:
             print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
